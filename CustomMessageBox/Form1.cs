@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CustomMessageBox
 {
-    public partial class Form1 : Form
+    public partial class MessageBox : Form
     {
-        public Form1()
+        public MessageBox()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace CustomMessageBox
 {
-    partial class Form1
+    partial class MessageBox
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace CustomMessageBox
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MessageBox));
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -98,7 +98,7 @@ namespace CustomMessageBox
             this.gunaLabel1.TabIndex = 3;
             this.gunaLabel1.Text = "are you sure ?";
             // 
-            // Form1
+            // MessageBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,7 +109,7 @@ namespace CustomMessageBox
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form1";
+            this.Name = "MessageBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
